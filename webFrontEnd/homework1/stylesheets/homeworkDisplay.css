@@ -1,0 +1,45 @@
+body > div[id = "content"] > header{
+    position: relative;
+    top: 10pt;
+    margin: 0;
+    padding: 0;
+    font-size: 25pt;
+}
+
+
+
+body > div[id = "content"] > div[id = "display_article"]{
+    width: 90%;
+    position: relative;
+    top: 30pt;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+body > div[id = "content"] > div[id = "display_article"] > div[class = "display_article_each"]{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    overflow: hidden;
+}
+
+body > div[id = "content"] > div[id = "display_article"] > div[class = "display_article_each"] > div[class = "article_title"]{
+    width: 30%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+body > div[id = "content"] > div[id = "display_article"] > div[class = "display_article_each"] > div[class = "dateAndTime"]{
+    width: 30%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
