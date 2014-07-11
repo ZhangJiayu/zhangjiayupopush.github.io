@@ -1,0 +1,36 @@
+
+html > body{
+	min-height: 100%;
+}
+
+html > body > header{
+	background: #93F6FF;
+	min-height: 100px;
+}
+html > body > header > div{
+	position: absolute;
+	font-size: 30px;
+	color: red;
+	top: 20px;
+	width: 70%;
+	left: 10%;
+}
+html > body > footer{
+	bottom: 0px;
+	height: 20px;
+	background-color: green;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body div{
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,53 @@
+div#comment > header{
+	position: relative;
+	min-height: 50px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+div#comment > header > div.headerTitle{
+	position: absolute;
+	bottom: 15%;
+	float: left;
+	width: 25%;
+	left: 20px;
+	font-size: 30px;
+}
+div#comment > header > div.pageNumber{
+	position: absolute;
+	bottom: 15%;
+	float: right;
+	right: 10pt;
+	font-size: 20px;
+}
+div#comment > div.commentBody{
+	width: 100%;
+	min-height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #91FCE0;
+}
+div#comment > div.commentBody > div.eachComment{
+	width: 100%;
+	min-height: 200px;
+	border-bottom: medium solid #91FCE0;
+}
+div#comment > div.commentBody > div.eachComment > div.commentPerson{
+	position: relative;
+	margin-left: 15%;
+	width: 14%;
+	height: 100%;
+
+	float: left;
+}
+div#comment > div.commentBody > div.eachComment > div.commentPerson > img{
+	height: 20%;
+	width: 55%;
+}
+div#comment > div.commentBody > div.eachComment > div.commentContent{
+	position: relative;
+	width: 70%;
+	position: relative;
+	float: right;
+}

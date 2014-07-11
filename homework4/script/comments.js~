@@ -1,0 +1,18 @@
+function getComment(pageNumber){
+	$.ajax({
+		url: ["commentRecord", String(pageNumber) + ".json"].join('/'),
+		success: processData
+	});
+	
+}
+
+function processData(data){
+	var templatePosition = $("div.commentBody script");
+	console.log(templatePosition);
+	var template = templatePosition[0].innerHTML;
+	templatePosition.parentNode.innerHTML = ejs.render(template, data);
+console.log(data);
+
+}
+
+getComment(1);
